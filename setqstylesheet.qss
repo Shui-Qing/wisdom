@@ -1,0 +1,106 @@
+.QWidget{
+        background:url(:/new/prefix1/back.png);
+        }
+
+QPushButton{
+        border-style:none;
+        padding:6px;
+        border:2px solid #FFFFFF;
+        border-radius: 15px;
+        background:transparent;
+        color:#FFFFFF;
+}
+#pushButton{
+        border-style:none;
+        padding:6px;
+        border:2px solid #FFFFFF;
+        border-radius: 15px;
+        background:transparent;
+        color:#FFFFFF;
+        }
+
+QPushButton:hover{
+        background: rgb(240, 240, 240);
+        color:#000000;
+        }
+
+QPushButton:pressed{
+        color:#B8C6D1;
+        }
+
+
+QLineEdit{
+        color:#000000;
+	border-style:none;
+	padding:6px;
+        border-radius:0px;
+        border-bottom:2px solid #FFFFFF;
+        font:18px;
+        background:transparent;
+	}
+#comboBox{
+        background:#FFFFFF;
+}
+QLabel{
+        color:#FFFFFF;
+        background:transparent;
+        }
+
+
+#tableWidget{
+background:#FFFFFF;
+}
+
+#listWidget{
+background:#FFFFFF;
+}
+
+
+.QFrame{
+        background:url(:/new/prefix1/back.png);
+        }
+
+
+#pushButton_3{
+        background:transparent;
+    }
+
+#pushButton_2{
+        background:transparent;
+}
+
+#pushButton_4{
+        background:transparent;
+}
+
+#label_2{
+        color:#FFFFFF;
+        background:transparent;
+}
+
+QTableView{
+	color:rgb(255, 255, 255);
+	border:none
+	}
+
+QHeaderView:section{
+	color:#000000;
+	font:bold 12pt;
+	background-color:rgb(171,171,171);
+	min-height:29px
+	}
+
+QGroupBox{
+	border:2px solid #FFFFFF;
+	border-radius:5px;
+	font:bold 20px;
+	margin:9px
+	}
+
+QGroupBox:title{
+	color:#FFFFFF;
+	subcontrol-origin:margin;
+	subcontrol-position:top center;
+	padding:0 3px;
+	}
+
